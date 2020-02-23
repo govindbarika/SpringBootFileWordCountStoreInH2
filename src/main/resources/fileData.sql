@@ -1,0 +1,1 @@
+insert into file_details_model values(10, 'abx.txt', 50);

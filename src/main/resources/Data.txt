@@ -1,0 +1,1 @@
+This is springboot example project to read data from file and store number of words in database
