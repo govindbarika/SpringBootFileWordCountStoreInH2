@@ -12,8 +12,8 @@ public class FileDetailsController {
 	@Autowired
 	private IFileDetailsService fileService;
 	
-	@RequestMapping("/saveFileCount")
-	public String saveFileCount() {
+	@RequestMapping("/saveWordsCount")
+	public String saveWordsCount() {
 		fileService.readDataFromFileAndStoreWordCountInDB();	
 		return "File word count returned to dB";
 	}
